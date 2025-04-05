@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Great+Vibes&family=Medula+One&family=Pirata+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-direction: column;
+  text-align: center;
+  background-color: #7e7676bb;
+  color: white;
+  background-image: url(https://cdn.pixabay.com/photo/2025/03/24/11/24/mountains-9490544_1280.jpg);
+  background-size: cover;
+}
+
+
+
+.container {
+  max-width: 2000px;
+  width: 1300px;
+  height: auto;
+  border-radius: 30px;
+  background-color: rgb(245, 232, 232);
+  margin: auto;
+}
+
+/* ---------LOGO----------- */
+.logo {
+  margin: 20px 10px;
+}
+.logo img{
+  margin: 20px 10px;
+  width: 300px;
+}
+
+/* -------Sobre nós----------- */
+.sobre-nos {
+  display: flex;
+  width: 100%;
+  height: 7%;
+  font-size: x-large;
+  margin-top: 70px;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+
+}
+
+.sobre-nos h2 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 50px 60px;
+  background-color: #e42038;
+  width: 300px;
+  height: 160px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.sobre-nos p {
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e42038;
+  background-image: url( https://cdn.pixabay.com/photo/2017/03/28/16/57/graffiti-2182688_1280.jpg);
+  text-align: left;
+  padding: 30px 90px;
+  width: 800px;
+  height: 200px;
+  font-size: 35px;
+  font-family: "Medula One", system-ui;
+  font-weight: 400;
+}
+
+
+
+/*------------RECENTES---------- */
+h3 {
+  color: azure;
+  text-decoration: underline;
+  background-color: #244040;
+  font-size: 50px;
+  position: relative;
+  margin: 100px 400px;
+  margin-bottom: -50px;
+  border-radius: 50px;
+  padding: 20px;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+
+}
+
+
+
+
+/*----------- IMAGEM PRINCIPAL DO SITE ----------- */
+.image img {
+  width: 100%;
+  max-width: 1250px;
+  border-radius: 50px;
+}
+
+input {
+  padding: 10px;
+  font-size: x-large;
+
+}
+
+
+
+/* --------------- CATEGORIAS -----------------  */
+
+.categorias {
+  background-color: #244040;
+  border-radius: 30px;
+  margin: 20px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+}
+
+nav button{
+  width: 270px;
+  background-color: #244040;
+  height: 60px;
+  border-radius: 30px;
+  margin: 7px 5px;
+  font-size: larger;
+  color: #ffffff;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.cadastro {
+  width: 300px;
+  height: 60px;
+  background-color: #244040;
+  border-radius: 30px;
+  margin: 20px 5px;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+
+}
+
+.pesquisa{
+  width: 850px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+  font-size: xx-large;
+}
+
+.bi {
+  margin: 10px;
+}
+
+/* ------------- ARTIGO UM -------------- */
+.artigoum {
+  background-color: #244040;
+  flex-direction: row;
+  padding: 20px;
+  display: flex;
+  margin: 90px 10px;
+  border-radius: 30px;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+
+}
+
+.artigoum a {
+  text-decoration: none;
+}
+
+.artigoum p {
+  color: aliceblue;
+  font-size: 35px;
+  text-align: left;
+  margin: 30px 20px;
+  font-family: "Medula One", system-ui;
+  font-weight: 400;
+}
+
+.artigoum h4 {
+  color: aliceblue;
+  font-size: 40px;
+  
+}
+
+.image-artigo img {
+  width: auto;
+  height: auto;
+  width: 390px;
+  height: 433px;
+  border-radius: 30px;
+
+}
+
+
+
+
+/* ---------- ARTIGO DOIS ---------- */
+
+.dois {
+  color: aliceblue;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.dois p {
+  color: aliceblue;
+  font-size: xx-large;
+  text-align: center;
+}
+
+.image-artigo-dois img {
+  width: auto;
+  height: auto;
+  width: 365px;
+  height: 433px;
+  border-radius: 30px;
+}
+
+.image-artigo-dois-segunda img {
+  width: auto;
+  height: auto;
+  width: 365px;
+  height: 433px;
+  border-radius: 30px;
+}
+
+
+
+/* --------- Artigo tres ----------- */
+.artigotres {
+  background-color: #282335;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.artigotres p {
+  font-size: larger;
+  color: aliceblue;
+}
+
+.tres {
+ flex-direction: column;
+}
+
+.tres h6 {
+  color: aliceblue;
+  font-size: xx-large;
+}
+
+.image-artigo-tres img {
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  max-height: 1000px;
+  border-radius: 30px;
+}
+
+
+
+/* --------- Artigo quatro ----------- */
+
+.artigoquatro {
+  background-color: #282335;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.image-artigo-quatro img {
+  width: auto;
+  height: auto;
+  width: 265px;
+  height: 333px;
+  border-radius: 30px;
+}
+
+.quatro {
+  flex-direction: row-reverse;
+  color: white;
+  font-size: xx-large;
+}
+
+.quatro a {
+  color: aliceblue;
+}
+
+
+
+
+/* --------- Artigo cinco ------------- */
+.artigocinco {
+  background-color: #282335;
+  margin-top: 100px;
+  padding: 10;
+}
+
+.image-artigo-cinco img {
+  width: auto;
+  height: auto;
+  width: 265px;
+  height: 333px;
+  border-radius: 30px;
+}
+
+.cinco {
+  font-size: xx-large;
+  color: white;
+  flex-direction: column;
+}
+
+
+
+
+
+/* ---------- Artigo seis ----------  */
+.artigoseis {
+  background-color: #282335;
+  margin-top: 100px;
+  padding: 10px;
+}
+
+.image-artigo-seis img {
+  width: auto;
+  height: auto;
+  width: 265px;
+  height: 333px;
+  border-radius: 30px;
+}
+
+.textoseis h9 {
+  color: white;
+  font-size: xx-large;
+}
+
+
+
+
+/* ----------- Artigo sete -------------- */
+
+.image-artigo-sete img {
+  width: auto;
+  height: auto;
+  width: 265px;
+  height: 333px;
+  border-radius: 30px;
+}
+
+.textosete h10 {
+  color: white;
+  font-size: xx-large;
+}
+
+.textosete p{ 
+  text-align: left;
+}
+
+
+
+
+/* --------- Artigo oito --------- */
+
+.image-artigo-oito img {
+  width: auto;
+  height: auto;
+  width: 265px;
+  height: 333px;
+  border-radius: 30px;
+}
+
+
+.textooito h11 {
+  color: white;
+  font-size: xx-large;
+}
+
+/* -------------RODAPE--------------- */
+.rodape {
+  background-color:#244040;
+  width: auto;
+  height: 100px;
+  padding: 20px;
+  font-family: "Pirata One", system-ui;
+  font-weight: 400;
+}
+
+i {
+  margin: 10px;
+}
+
+
+/*------FORMATAÇÃO DO CONTAINER------*/
+.container-carrosel{
+  /* display: contents; */
+  height: 700px; /* Altura do Container*/
+  width: 90%; /*Largura do Container*/
+  overflow: hidden; /*Esconder o que passa do espaço do container*/
+  /* position: absolute; 
+  transform: translate(-50%, -50%);  */
+  top: 50%;  
+  left: 50%; 
+  margin: auto; 
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*------FORMATAÇÃO  DA BARRA DE NAVEGAÇÃO (LOCALIZAÇÃO)------*/
+.navegacao {
+  position: relative; /*Posição em relação ao container*/
+  bottom: 20px; /*Distância a partir da base*/
+  left: 50%; /*Distância a partir da esquerda*/
+  transform:translate(-50%); /*Alterar o eixo principal*/
+  display: flex; /*Colocar o conteúdo lado a lado*/
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+/*------FORMATAÇÃO  DOS INDICADORES DA NAVEGAÇÃO------*/
+.bar {
+  background-color: #ffffff80; /*Plano de Fundo do indicador*/
+  width: 30px; /*largura do indicador*/
+  height: 5px; /*Altura do indicador*/
+  margin: 6px; /*Espaço entre os indicadores*/
+  transition: .3s; /*Transição no hover*/
+  cursor: pointer; /*Ponteiro do Mouse */
+  
+}
+
+/*------FORMATAÇÃO  DA BARRA DE NAVEGAÇÃO------*/
+.bar:hover{
+  background-color: #838174; /*Alteração do BG*/
+  
+}
+
+
+
+
+
+
+
+
+/*------FORMATAÇÃO  DA BARRA DE NAVEGAÇÃO------*/
+.input {
+  display: none; /*Ocultar as input do tipo Radio*/
+}
+
+/*------FORMATAÇÃO  DA BARRA DE NAVEGAÇÃO------*/
+.imagens {
+  display: flex; /*Posiciona uma imagem ao lado da outra*/
+  width: 600%; /*define o tamanho da div imagens*/
+  height: 100%; /*define a altura a div imagens*/
+}
+
+/*------FORMATAÇÃO  DA BARRA DE NAVEGAÇÃO------*/
+.imagem {
+  width: 16.6666666667%; /*Define a proporção do tamanho de cada imagem em relação ao elemento pai*/
+  transition: .5s cubic-bezier(0.075, 0.82, 0.165, 1); /*efeito na transição das imagens*/
+}
+
+/*------FORMATAÇÃO  DA BARRA DE NAVEGAÇÃO------*/
+.imagem img {
+  width: 100%; /*ajusta o tamanho da imagem dentro do container*/
+  height: 100%; /*ajusta o tamanho da imagem dentro do container*/
+}
+
+.imagem video source {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+
+/*------FORMATAÇÃO  DA BARRA DE NAVEGAÇÃO------*/
+#imagem1:checked ~ .img1 {
+  margin-left: 0; /*alteração na margem esquerda*/
+}
+
+#imagem2:checked ~ .img1 {
+  margin-left: -16.6666666667%;
+}
+
+#imagem3:checked ~ .img1 {
+  margin-left: -33.3333333333%;
+}
+
+#imagem4:checked ~ .img1 {
+  margin-left: -50%;
+}
+
+#imagem5:checked ~ .img1 {
+  margin-left: -66.6666666667%;
+}
+
+#imagem6:checked ~ .img1 {
+  margin-left: -83.3333333333%;
+}
+
+
+
